@@ -16,6 +16,6 @@ for(number=1;number<=10;number=number+1){
     }
 }
 
-for(num=1;num<=5;num=num+1){
-    console.log(number+"x2=num")
+for(num=1;num<=10;num=num+1){
+    console.log(num+"x2="+num*2)
 }
