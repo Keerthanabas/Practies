@@ -1,4 +1,4 @@
-var finished = true
+var finished = false
 
 if(finished){
     console.log("Great job")
