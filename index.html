@@ -1,6 +1,14 @@
-<input id="num1">
-<input id="num2">
-<button onchange="add()">Add</button>
+<input id="inputbox" onkeyup="change()">
+<!-- <button onclick="change()">Button</button> -->
+<h1 id="result"></h1>
 
-<p>Reasult</p>
 
+<script>
+    var inputbox = document.getElementById("inputbox")
+    var result = document.getElementById("result")
+
+function change(){
+result.textContent = inputbox.value
+}
+
+</script>
