@@ -1,4 +1,4 @@
 function area(length,breadth){
 console.log(length*breadth)
 }
-area(10,20)
+area(12,20)
