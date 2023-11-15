@@ -1,8 +1,18 @@
-<h1>One</h1>
-<h1>Two</h1>
-<h1>Three</h1>
-<h1>Four</h1>
-<h1>Five</h1>
-<h1>Six</h1>
+<h1 onclick="deleteitem(event)">One</h1>
+<h1 onclick="deleteitem(event)">Two</h1>
+<h1 onclick="deleteitem(event)">Three</h1>
+<h1 onclick="deleteitem(event)">Four</h1>
+<h1 onclick="deleteitem(event)">Five</h1>
+<h1 onclick="deleteitem(event)">Six</h1>
 
-<button onclick="">Delete</button>
+
+<script>
+ 
+
+ function deleteitem(event){
+
+    event.target.remove()
+ }
+
+
+</script>
